@@ -1,20 +1,22 @@
-
-* {
+body{
     margin: 0;
     padding: 0;
 }
 .img-home {
-    background: url(/images/V1.jpg);
+    background: url('../images/PNC.jpg');
     width: 100%;
     height: 40vh;
+    background-size: cover;
 }
 .list {
     position: absolute;
-    top: 34%;
+    top: 30%;
+    
 }
 .list ul {
     display: flex;
     list-style: none;
+
 
 }
 .list ul li {
@@ -23,11 +25,13 @@
 }
 
 .list ul li a {
-    color: rgb(31, 56, 54);
+    color: rgb(230, 190, 11);
     text-decoration: none;
+    cursor: pointer;
 }
-ul li a:hover{
-    background: yellow;
+ul li:hover{
+    background: rgb(10, 30, 211);
+   
 }
 .bg1 {
     position: relative;
@@ -35,14 +39,144 @@ ul li a:hover{
     height: 60vh;
     background: rgba(218, 110, 110, 0.658);
 }
-.bg1 .bg2 {
-    width: 50%;
-    height: 35vh;
-    position: absolute;
-    left: 80%;
-    top: 15vh;
+
+body{
+    background: rgba(229, 235, 210, 0.863);
 }
-.text h1,h3{
-    position: absolute;
-    left: 110%;
+img{
+    margin:5px;
+    width: 350px;
+    padding: 15px;
+    float: left;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 40% , 60%;
+    display: flex;
+}
+.text-pf{
+    margin-top: 18px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    padding: 50px;
+}
+.youtube{
+    width: 125px;
+}
+footer{
+    background-color: rgba(213, 99, 248, 0.795);
+}
+/* h1{
+    margin-top: 60px;
+    margin-left: 1100px;
+    font-family: sans-serif;
+    font-size:70px ;
+    color: rgb(77, 197, 201);
+} */
+.contact-header {
+    text-align: center;
+    font-size: 30px;
+
+}
+.contact-header h1 {
+    color: green;
+}
+.h5{
+    font-size: 40px;
+    margin-left: 30%;
+}
+.login{
+    margin: auto;
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-controller{
+    width: 45%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    }
+    input,
+    textarea{
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    background-color: rgba(67, 238, 238, 0.815);
+    box-sizing: border-box;
+    }
+    #c1{
+    width: 100%;
+    background-color: yellow;
+    color:rgb(201, 17, 17);
+    border-radius: 11px;
+    outline: none;
+    }
+.map-container {
+    width: 50%;
+}
+    
+    input[type="text"]{
+        padding: 20px;
+        font-size: 30px;
+
+        box-sizing: border-box;
+    }
+    input[type="email"]{
+        padding: 20px;
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    input[type="password"]{
+        padding: 20px;
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    input[type="massage"]{
+        padding: 20px;
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    label{
+        font-size: 50px;
+        box-sizing: border-box;
+    }
+.btn-dw{
+    background:rgb(44, 74, 238);
+    padding: 20px 50px;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+    
+}
+.icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    padding: 50px;
+}
+.youtube{
+    width: 125px;
+}
+footer{
+    background-color: rgba(213, 99, 248, 0.795);
+}
+
+.cover{
+    background: url('../images/PNC.jpg');
+    height: 40vh;
+    background-size: cover;
 }

@@ -12,7 +12,7 @@ body{
     width: 100%;
     position: absolute;
     top: 30%;
-    background: rgb(187, 37, 192);
+    background: rgba(218, 110, 110, 0.658);
     /* border-radius: 10px; */
     box-shadow: 4px 6px 5px 0px rgba(7,7,7,0.61);
 
@@ -29,21 +29,21 @@ body{
     font-size: 20px;
 }
 .list ul li a{
-    color: rgb(230, 149, 0);
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
     list-style: none;
     padding: 10px;
 }
 ul li:hover{
-    background: rgb(211, 10, 10);
+    background: rgba(0,0,0,0.3);
    
 }
 .bg1 {
     position: relative;
     width: 40%;
     height: 40vh;
-    background: rgba(218, 110, 110, 0.658);
+    background: teal;
 }
 
 .profile{
@@ -51,24 +51,32 @@ ul li:hover{
     grid-template-columns: 40% , 60%; */
     display: flex;
     justify-content: space-evenly;
+    background-image: url(../images/Ti.jpg);
+    background-size: cover;
+    background-image: no-repeat;
 }
 .text-pf{
-   width: 66%;
+   width: 50%;
    padding: 10px;
    font-size: 30px;
+   color:rgb(173, 226, 28);
 }
+
 .images {
    width: 20%;
    height: 40px;
    margin-top: 50px;
 }
-.btn-download{
+
+.btn{
     background: rgb(20, 190, 212);
     color:#fff;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
     border: none;
+    width: 250px;
+
 }
 .pro {
  width: 100%;
@@ -85,7 +93,7 @@ ul li:hover{
     padding: 50px;
 }
 
-ol{
+ ol{
     display: flex;
     width: 30%;
     justify-content: space-around;
@@ -95,5 +103,4 @@ footer{
     display: flex;
     justify-content: center;
     height: 10vh;
-    background: #000;
-}
+} 

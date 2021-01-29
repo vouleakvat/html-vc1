@@ -1,8 +1,6 @@
-body{
-    width: 100%;
-}
+
 .icon{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +18,10 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 2px 10px;
-    height: 20vh;
+    /* height: 20vh; */
+    background-image: url(../images/k.jpg);
+    background-size: cover;
+    background-image: no-repeat;
     
 }
 .column1 {
@@ -51,16 +52,16 @@ footer{
     clear: both;
   }
   .text{
-    margin-left: 90px;
+    /* margin-left: 90px; */
     color:rgb(74, 74, 80);
     font-size: 40px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 
 .box img{
-    margin-top: 10px;
-    margin-right: 20px;
+    /* margin-top: 10px; */
+    /* margin-right: 20px; */
     width: 40%;
 }
 * {
@@ -68,7 +69,7 @@ footer{
 }
 .contain {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     color: black;
 }
 /* <...icon style....> */
@@ -80,10 +81,11 @@ ol{
 }
 footer{
     display: flex;
+    background: teal;
     justify-content: center;
 }
 .date{
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
 }
 p{
@@ -93,12 +95,33 @@ h2{
     color:rgb(116, 108, 106);
 }
 .time{
-    margin-left: 20px ;
+    /* margin-left: 20px ; */
 
 }
  li{
-    font-family: sans-serif;
+    font-family: /sans-serif;
 }
 .bg{
     background-attachment: ping;
+}
+/* @media(max-width:600px){
+    .contain{
+        flex-wrap: wrap;
+    }
+    .column1,
+    .column2{  
+        width: 50%;
+    }
+} */
+@media only screen and (max-width:700px){
+    .contain{
+        flex-direction: column;
+        width: 100%;
+        /* margin-top: 260px; */
+    }
+    .column1,.column2{
+        width: 100%;
+    }
+    
+
 }
